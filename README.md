@@ -7,33 +7,6 @@ local Window = Libary:MakeWindow({
     LoadText = "Carregando cafe",
     Flags = "ChaosHub_Broookhaven"
 })
-Window:AddMinimizeButton({
-    Button = { Image = "", BackgroundTransparency = 0 },
-    Corner = { CornerRadius = UDim.new(35, 1) },
-})
-
-local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://" })
-
-
-
-InfoTab:AddSection({ "Informações do Script" })
-InfoTab:AddParagraph({ "Owner / Developer:", "Luscaa and veno." })
-InfoTab:AddParagraph({ "Colaborações:", "Blue, sukuna, Magekko, Darkness, Star, Toddy" })
-InfoTab:AddParagraph({ "Você está usando:", "Chaos Hub Brookhaven " })
-InfoTab:AddParagraph({"Your executor:", executor})
-
-InfoTab:AddSection({ "Rejoin" })
-InfoTab:AddButton({
-    Name = "Rejoin",
-    Callback = function()
-        local TeleportService = game:GetService("TeleportService")
-        TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
-    end
-})
-
-
-
-local TrollTab = Window:MakeTab({ Title = "Scripts Trolls", Icon = "rbxassetid://" })
 
 local TabMain = Window:MakeTab({" Main",""})
 local TabFarming = Window:MakeTab({" Farming",""})
