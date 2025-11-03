@@ -12,7 +12,7 @@ Window:AddMinimizeButton({
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
-local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://15309138473" })
+local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://" })
 
 
 
