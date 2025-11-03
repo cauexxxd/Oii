@@ -33,7 +33,7 @@ InfoTab:AddButton({
 
 
 
-local TrollTab = Window:MakeTab({ Title = "Scripts Trolls", Icon = "rbxassetid://13364900349" })
+local TrollTab = Window:MakeTab({ Title = "Scripts Trolls", Icon = "rbxassetid://" })
 
 local TabMain = Window:MakeTab({" Main",""})
 local TabFarming = Window:MakeTab({" Farming",""})
